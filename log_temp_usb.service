@@ -1,0 +1,13 @@
+[Unit]
+Description=Temperature and USB Log Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/opt/system_monitor/log_temp_usb.sh
+Restart=on-failure
+StandardOutput=append:/opt/system_monitor/system_monitor.log
+StandardError=append:/opt/system_monitor/system_monitor_error.log
+
+[Install]
+WantedBy=multi-user.target

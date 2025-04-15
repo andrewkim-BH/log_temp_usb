@@ -1,0 +1,8 @@
+/opt/system_monitor/system_monitor.log {
+    weekly
+    rotate 4
+    compress
+    missingok
+    notifempty
+    copytruncate
+}
