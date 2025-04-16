@@ -16,7 +16,3 @@ echo "[3/5] systemd 서비스 등록..."
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable log_temp_usb.service
-sudo systemctl restart log_temp_usb.service
-
-echo "✅ 설치 완료! 서비스 상태:"
-sudo systemctl status log_temp_usb.service
