@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_URL="https://yourdomain.com/system_monitor"
+BASE_URL="https://raw.githubusercontent.com/andrewkim-BH/log_temp_usb/blob/main/system_monitor"
 
 echo "[1/5] 스크립트 설치 경로 준비..."
 sudo mkdir -p /opt/system_monitor
