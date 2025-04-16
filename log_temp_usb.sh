@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGFILE="/opt/system_monitor/system_monitor.log"
+LOGFILE="/home/[PC_NAME]/temp_log/system_monitor.log"
 INTERVAL=10  # 측정 주기 (초)
 
 echo "System Monitor Log - Started at $(date)" >> "$LOGFILE"
